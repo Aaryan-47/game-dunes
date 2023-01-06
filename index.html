@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>TicTacToe</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+        <h1 id="heading">Connect To the Server to create or join a game</h1>
+        <div class="btnC">
+        <button class="connect"><span class="bn39span">Connect</span></button>
+        <button class="create"><span class="bn39span">Create</span></button>
+        <button type="submit" class="submit"><span class="bn39span">Join</span></button>
+        </div>
+        <h4 id="heading">Click on the gameId and then click join</h4>
+        <div class="container" id="container">
+
+            <div class="sidebar" id="sidebar">
+                
+                <div class="flex-col2">
+                    <label for="join" class="join"><span class="bn39span" style="font-size:medium">Available Games</span></label>
+                    <ul class="Available" id="Available">
+                        <li>No games </li>
+                    </ul>
+                   
+
+                </div>
+
+            </div>
+            
+            <div class="gamebar" id="gamebar">
+                <div class="gameStatus" id="gameStatus"></div>
+                <div class="board" id="board">
+                    <div class="cell" ></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                </div>
+            </div>
+        </div>
+    
+</body>
+
+</html>
